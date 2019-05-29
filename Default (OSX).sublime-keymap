@@ -1,0 +1,36 @@
+[
+	{ "keys" : ["command+shift+i"], "command" : "reindent"},
+    { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser": "github"} },
+    {"keys": ["tab"], "command": "expand_abbreviation_by_tab", 
+      "context": [
+        {
+          "operand": "meta.group.braces.round.js, meta.group.braces.curly.js, meta.group.braces.round.jsx, meta.group.braces.curly.jsx, text.html", 
+          "operator": "equal", 
+          "match_all": true, 
+          "key": "selector"
+      }, 
+      {
+          "match_all": true, 
+          "key": "selection_empty"
+      },
+      {
+          "operator": "equal", 
+          "operand": false, 
+          "match_all": true, 
+          "key": "has_next_field"
+      }, 
+
+      {
+          "operand": false, 
+          "operator": "equal", 
+          "match_all": true, 
+          "key": "auto_complete_visible"
+      }, 
+      {
+          "match_all": true, 
+          "key": "is_abbreviation"
+      }
+  ]
+  },
+  { "keys": ["shift+command+m"], "command": "goto_definition" }
+]

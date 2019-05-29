@@ -1,0 +1,6 @@
+// SublimeLinter Settings - User
+{
+	"paths": {
+		"osx": ["~/.nvm/versions/node/v8.11.3/bin"]
+	}
+}

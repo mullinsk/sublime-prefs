@@ -1,0 +1,38 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Angular 2 Snippets (John Papa)",
+		"AutoFileName",
+		"Babel",
+		"Babel Snippets",
+		"Boxy Theme",
+		"CSScomb",
+		"EJS 2",
+		"Emmet",
+		"ESLint-Formatter",
+		"GitGutter",
+		"Handlebars",
+		"LESS",
+		"LessImproved",
+		"MarkdownLivePreview",
+		"MarkdownPreview",
+		"Material Theme",
+		"Package Control",
+		"PackageResourceViewer",
+		"PackageSync",
+		"PHP-Twig",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-sass-lint",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-eslint",
+		"Theme - Spacegray",
+		"TypeScript"
+	]
+}
